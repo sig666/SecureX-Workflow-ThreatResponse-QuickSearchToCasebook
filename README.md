@@ -42,9 +42,9 @@ The targets and account keys listed at the bottom of the page
 ![install](img/install.png "install")
 
 # Configuration
-Set the Variable of Target, Overrride workflow target in Send Email - ex: Email Endpoint
-Set the Variable of Email From in Send Email - ex: shkimura@cisco.com
-Set the Variable of Email to in Send Email - ex: shige@akubi.info
+- Set the Variable of `Target`, `Overrride workflow target` in `Send Email` - ex: Email Endpoint
+- Set the Variable of `Email From` in `Send Email` - ex: shkimura@cisco.com
+- Set the Variable of `Email To` in `Send Email` - ex: shige@akubi.info
 
 # Targets
 Target Group: `Default TargetGroup`
