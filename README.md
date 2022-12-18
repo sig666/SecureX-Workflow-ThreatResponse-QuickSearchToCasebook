@@ -40,3 +40,11 @@ The targets and account keys listed at the bottom of the page
 5. Paste to **Paste JSON or upload the workflow to import** and click **Import**
 
 ![install](img/install.png "install")
+
+# Configuration
+
+# Targets
+Target Group: `Default TargetGroup`
+
+# Account Keys
+Default
