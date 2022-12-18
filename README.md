@@ -46,7 +46,7 @@ The targets and account keys listed at the bottom of the page
 # Targets
 Target Group: `Default TargetGroup`
 
-By default, the Default TargetGroup may not include SMTP Endpoint targets. If this is the case, you will need to update the target group and add SMTP Endpoint to the target types included. More information about target groups can be found here.
+By default, the Default TargetGroup may not include SMTP Endpoint targets. If this is the case, you will need to update the target group and add SMTP Endpoint to the target types included. More information about target groups can be found here https://ciscosecurity.github.io/sxo-05-security-workflows/targets/groups.
 
 # Account Keys
 Default
