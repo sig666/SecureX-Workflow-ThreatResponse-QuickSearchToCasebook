@@ -49,7 +49,16 @@ The targets and account keys listed at the bottom of the page
 # Targets
 Target Group: `Default TargetGroup`
 
+|Target Name|Type|Details|Account Keys|Notes|
+|:---|:---|:---|:---|:---|
+|CTR_API|HTTP Endpoint|Protocol: HTTPS, Host: `visibility.apjc.amp.cisco.com`, Path: `/iroh`|None|Created by default|
+|CTR_For_Access_Token|HTTP Endpoint|Protocol: HTTPS, Host: `visibility.apjc.amp.cisco.com`, Path: `/iroh`|CTR_Credentials|Created by default|
+|Email Endpoint|SMTP Endpoint|SMTP Server: `Your SMTP Server`, SMTP Port: `Your SMTP Port`, |Email Credential||
+
 By default, the Default TargetGroup may not include SMTP Endpoint targets. If this is the case, you will need to update the target group and add SMTP Endpoint to the target types included. More information about target groups can be found here https://ciscosecurity.github.io/sxo-05-security-workflows/targets/groups.
 
 # Account Keys
-Default
+|Account Key Name|Type|Details|Notes|
+|:---|:---|:---|:---|
+|CTR_Credentials|SecureX Token||https://ciscosecurity.github.io/sxo-05-security-workflows/account-keys/securex-token|
+|Email Credentials|Email Credentials|Username: `Your Email User`, Password: `Your Email Password`||
