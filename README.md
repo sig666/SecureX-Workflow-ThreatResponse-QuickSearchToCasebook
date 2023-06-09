@@ -5,6 +5,10 @@ This workflow is a simple example of reporting on a searchable IoC using the Sec
 
 # Change Log
 - Dec, 18, 2022 : Initial Release
+- Jun, 09, 2023 : Ver 2.0
+  - Fixing Error Handlings
+  - New SecureX Token
+  - Supporting other observable information
 
 # Requirements
 The following system atomics are used by this workflow:
